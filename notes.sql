@@ -7,8 +7,10 @@
 SELECT * FROM Dishes;
 SELECT * FROM Customers;
 
-Create table anniversayattendees
-(
-CustomerID INTEGER,
-PartySize
-);
+select * from dishes
+order by price asc;
+
+select * from dishes
+where 
+type not in ('Beverage')
+order by price asc;
